@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.9.312 Kernel Configuration
+# Linux/arm64 4.9.315 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -168,7 +168,6 @@ CONFIG_UTS_NS=y
 # CONFIG_PID_NS is not set
 CONFIG_NET_NS=y
 # CONFIG_SCHED_AUTOGROUP is not set
-# CONFIG_SCHED_TUNE is not set
 CONFIG_DEFAULT_USE_ENERGY_AWARE=y
 # CONFIG_SYSFS_DEPRECATED is not set
 CONFIG_RELAY=y
@@ -847,7 +846,6 @@ CONFIG_NF_CONNTRACK_SANE=y
 CONFIG_NF_CONNTRACK_TFTP=y
 # CONFIG_NF_CT_NETLINK is not set
 # CONFIG_NF_CT_NETLINK_TIMEOUT is not set
-# CONFIG_NETFILTER_NETLINK_GLUE_CT is not set
 CONFIG_NF_NAT=y
 CONFIG_NF_NAT_NEEDED=y
 CONFIG_NF_NAT_PROTO_DCCP=y
@@ -1736,7 +1734,6 @@ CONFIG_CLD_LL_CORE=y
 #
 # CONFIG_WAN is not set
 # CONFIG_ISDN is not set
-# CONFIG_NVM is not set
 
 #
 # Input device support
