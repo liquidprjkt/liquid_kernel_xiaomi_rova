@@ -38,8 +38,8 @@ function upload()
 {
 ## Edit those kernel variables.
 KERNEL_NAME=liquid
-CODENAME=WATER
-VERSION=1.1
+CODENAME=LIMEROCK
+VERSION=1.2
 DATE=$(date +"%d-%m-%Y_%H-%M")
 export ZIP="$KERNEL_NAME"-"$VERSION"-"$CODENAME"-"$DATE".zip
 cd ${HOME}/compiling/AnyKernel3/
