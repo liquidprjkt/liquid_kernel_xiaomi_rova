@@ -13,7 +13,7 @@ export KBUILD_BUILD_USER="veshrao"
 KERNELDIR=${PWD}
 
 ## Clone compilators & AnyKernel
-git clone --depth=1 https://gitlab.com/ElectroPerf/atom-x-clang ${HOME}/compiling/clang  >/dev/null 2>&1
+git clone --depth=1 https://gitlab.com/dakkshesh07/neutron-clang ${HOME}/compiling/clang  >/dev/null 2>&1
 git clone --depth=1 https://github.com/veshrao/AnyKernel3/ ${HOME}/compiling/AnyKernel3 >/dev/null 2>&1
 
 # Function to compile the kernel
@@ -41,7 +41,7 @@ KERNEL_NAME=liquid
 CODENAME=WATER
 VERSION=1.1
 DATE=$(date +"%d-%m-%Y_%H-%M")
-export ZIP="$KERNEL_NAME"-"$CODENAME"-"$VERSION"-"$DATE".zip
+export ZIP="$KERNEL_NAME"-"$VERSION"-"$CODENAME"-"$DATE".zip
 cd ${HOME}/compiling/AnyKernel3/
 cp "$KERNELDIR"/out/arch/arm64/boot/Image.gz-dtb ${HOME}/compiling/AnyKernel3
 zip -r "$ZIP" * -x README.md  >/dev/null 2>&1 
